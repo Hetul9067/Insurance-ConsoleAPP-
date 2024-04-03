@@ -1,0 +1,599 @@
+<mxfile host="Electron" modified="2023-10-30T03:42:35.298Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.0.3 Chrome/114.0.5735.289 Electron/25.8.4 Safari/537.36" etag="UfIOPFiAvWhr9M9pgQww" version="22.0.3" type="device">
+  <diagram name="Page-1" id="E32nveIzwv6vScPfJgpD">
+    <mxGraphModel dx="4599" dy="3394" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="NudccQQg-bQ0NmKnnHQn-1" value="CarInsuranceAgreementBuilder" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
+          <mxGeometry x="-680" y="160" width="290" height="242" as="geometry" />
+        </mxCell>
+        <mxCell id="NudccQQg-bQ0NmKnnHQn-2" value="~ ran: Random &#xa;&#xa;~ insAgreement: InsuranceAgreement&#xa;&#xa;" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="NudccQQg-bQ0NmKnnHQn-1" vertex="1">
+          <mxGeometry y="30" width="290" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NudccQQg-bQ0NmKnnHQn-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="NudccQQg-bQ0NmKnnHQn-1" vertex="1">
+          <mxGeometry y="90" width="290" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="NudccQQg-bQ0NmKnnHQn-5" value="+ buildClientNameAndType(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="NudccQQg-bQ0NmKnnHQn-1" vertex="1">
+          <mxGeometry y="98" width="290" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="NudccQQg-bQ0NmKnnHQn-6" value="+ buildYearlyFee(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="NudccQQg-bQ0NmKnnHQn-1" vertex="1">
+          <mxGeometry y="124" width="290" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="NudccQQg-bQ0NmKnnHQn-7" value="+ buildChanceOfAccident(): void&#xa;&#xa;+ buildInsuranceAmount(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="NudccQQg-bQ0NmKnnHQn-1" vertex="1">
+          <mxGeometry y="150" width="290" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="NudccQQg-bQ0NmKnnHQn-9" value="+ getInsuranceAgreement(): InsuranceAgreement" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="NudccQQg-bQ0NmKnnHQn-1" vertex="1">
+          <mxGeometry y="212" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NudccQQg-bQ0NmKnnHQn-10" value="InsuranceAgreement" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="-1150" y="-100" width="390" height="1234" as="geometry" />
+        </mxCell>
+        <mxCell id="NudccQQg-bQ0NmKnnHQn-11" value="- clientName: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="NudccQQg-bQ0NmKnnHQn-10" vertex="1">
+          <mxGeometry y="26" width="390" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="NudccQQg-bQ0NmKnnHQn-12" value="- yearlyFee: double" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="NudccQQg-bQ0NmKnnHQn-10" vertex="1">
+          <mxGeometry y="52" width="390" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="NudccQQg-bQ0NmKnnHQn-13" value="- risk: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="NudccQQg-bQ0NmKnnHQn-10" vertex="1">
+          <mxGeometry y="78" width="390" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="NudccQQg-bQ0NmKnnHQn-14" value="- insuranceAmount: double&#xa;&#xa;- insuranceAmount: double&#xa;&#xa;- startYear: int&#xa;&#xa;- endYear: int&#xa;&#xa;- type: String&#xa;&#xa;- isClaimed: boolean&#xa;&#xa;- totalClaimedAmount: double&#xa;&#xa;- claimedDetails: Map&lt;Integer, Double&gt; &#xa;&#xa;- isCanceled: boolean&#xa;&#xa;- breakAmount: double&#xa;&#xa;- breakYear: double&#xa;&#xa;+ claim(): void&#xa;&#xa;+ cancelled():void&#xa;&#xa;+ netProfitCalc():double&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="NudccQQg-bQ0NmKnnHQn-10" vertex="1">
+          <mxGeometry y="104" width="390" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="NudccQQg-bQ0NmKnnHQn-15" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="NudccQQg-bQ0NmKnnHQn-10" vertex="1">
+          <mxGeometry y="504" width="390" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="NudccQQg-bQ0NmKnnHQn-16" value="+ getName(): String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="NudccQQg-bQ0NmKnnHQn-10" vertex="1">
+          <mxGeometry y="512" width="390" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="NudccQQg-bQ0NmKnnHQn-17" value="+ getYearlyFee(): double" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="NudccQQg-bQ0NmKnnHQn-10" vertex="1">
+          <mxGeometry y="538" width="390" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="NudccQQg-bQ0NmKnnHQn-18" value="+ getRisk(): int&#xa;&#xa;+ getInsuranceAmount():double&#xa;&#xa;+ getStartYear():int&#xa;&#xa;+ getEndYear():int&#xa;&#xa;+ getType():string&#xa;&#xa;+isClaimed():boolean&#xa;&#xa;+ getTotalAmountPaid():double&#xa;&#xa;+ getClaimedDetails(): Map&lt;Integer, Double&gt; &#xa;&#xa;+ isCanceled(): boolean&#xa;&#xa;+ getBreakAmount():double&#xa;&#xa;+ getBreakYear():double&#xa;&#xa;&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="NudccQQg-bQ0NmKnnHQn-10" vertex="1">
+          <mxGeometry y="564" width="390" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="NudccQQg-bQ0NmKnnHQn-20" value="+ setName(String): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="NudccQQg-bQ0NmKnnHQn-10" vertex="1">
+          <mxGeometry y="884" width="390" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NudccQQg-bQ0NmKnnHQn-21" value="+ setYearlyFee(double): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="NudccQQg-bQ0NmKnnHQn-10" vertex="1">
+          <mxGeometry y="924" width="390" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NudccQQg-bQ0NmKnnHQn-22" value="+ setRisk(int): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="NudccQQg-bQ0NmKnnHQn-10" vertex="1">
+          <mxGeometry y="954" width="390" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="NudccQQg-bQ0NmKnnHQn-23" value="+ setInsuranceAmount(double): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="NudccQQg-bQ0NmKnnHQn-10" vertex="1">
+          <mxGeometry y="980" width="390" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="NudccQQg-bQ0NmKnnHQn-24" value="+ setStartYear(): void&#xa;&#xa;+ setType(): void&#xa;&#xa;+ setClaimed(): void&#xa;&#xa;+ setTotalAmountPaid(): void&#xa;&#xa;+ setClaimedDetails(claimedDetails: Map&lt;Integer, Double&gt;): void&#xa;&#xa;+ setCanceled(): void&#xa;&#xa;+ setBreakAmount(): void&#xa;&#xa;+ setBreakYear(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="NudccQQg-bQ0NmKnnHQn-10" vertex="1">
+          <mxGeometry y="1006" width="390" height="228" as="geometry" />
+        </mxCell>
+        <mxCell id="NudccQQg-bQ0NmKnnHQn-25" value="InsuranceDirector" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
+          <mxGeometry x="-590" y="-1045" width="320" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="NudccQQg-bQ0NmKnnHQn-26" value="~ ran: Random" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="NudccQQg-bQ0NmKnnHQn-25" vertex="1">
+          <mxGeometry y="26" width="320" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="NudccQQg-bQ0NmKnnHQn-27" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="NudccQQg-bQ0NmKnnHQn-25" vertex="1">
+          <mxGeometry y="60" width="320" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="NudccQQg-bQ0NmKnnHQn-29" value="+ generateInsuranceApplication(): InsuranceApplication" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="NudccQQg-bQ0NmKnnHQn-25" vertex="1">
+          <mxGeometry y="68" width="320" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="NudccQQg-bQ0NmKnnHQn-30" value="+ generateInsuranceAgreement(): InsuranceAgreement" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="NudccQQg-bQ0NmKnnHQn-25" vertex="1">
+          <mxGeometry y="94" width="320" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="NudccQQg-bQ0NmKnnHQn-32" value="&lt;&lt;interface&gt;&gt;&#xa;IInsuranceAgreementBuilder" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=46;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="-710" y="-110" width="290" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="NudccQQg-bQ0NmKnnHQn-33" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="NudccQQg-bQ0NmKnnHQn-32" vertex="1">
+          <mxGeometry y="46" width="290" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="NudccQQg-bQ0NmKnnHQn-34" value="+ buildClientNameAndType(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="NudccQQg-bQ0NmKnnHQn-32" vertex="1">
+          <mxGeometry y="54" width="290" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="NudccQQg-bQ0NmKnnHQn-35" value="+ buildYearlyFee(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="NudccQQg-bQ0NmKnnHQn-32" vertex="1">
+          <mxGeometry y="80" width="290" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="NudccQQg-bQ0NmKnnHQn-36" value="+ buildChanceOfAccident(): void&#xa;&#xa;+ buildInsuranceAmount(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="NudccQQg-bQ0NmKnnHQn-32" vertex="1">
+          <mxGeometry y="106" width="290" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="NudccQQg-bQ0NmKnnHQn-38" value="+ getInsuranceAgreement(): InsuranceAgreement" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="NudccQQg-bQ0NmKnnHQn-32" vertex="1">
+          <mxGeometry y="160" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NudccQQg-bQ0NmKnnHQn-40" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.438;entryY=1.077;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="NudccQQg-bQ0NmKnnHQn-1" target="NudccQQg-bQ0NmKnnHQn-38" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-540" y="196" as="sourcePoint" />
+            <mxPoint x="-380" y="196" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NudccQQg-bQ0NmKnnHQn-42" value="HouseInsuranceAgreementBuilder" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
+          <mxGeometry x="-450" y="420" width="290" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="NudccQQg-bQ0NmKnnHQn-43" value="~ ran: Random&#xa;&#xa;~ insAgreement: InsuranceAgreement" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="NudccQQg-bQ0NmKnnHQn-42" vertex="1">
+          <mxGeometry y="26" width="290" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="NudccQQg-bQ0NmKnnHQn-44" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="NudccQQg-bQ0NmKnnHQn-42" vertex="1">
+          <mxGeometry y="80" width="290" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="NudccQQg-bQ0NmKnnHQn-45" value="+ HouseInsuranceAgreementBuilder()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="NudccQQg-bQ0NmKnnHQn-42" vertex="1">
+          <mxGeometry y="88" width="290" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="NudccQQg-bQ0NmKnnHQn-46" value="+ buildClientNameAndType(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="NudccQQg-bQ0NmKnnHQn-42" vertex="1">
+          <mxGeometry y="114" width="290" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="NudccQQg-bQ0NmKnnHQn-47" value="+ buildYearlyFee(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="NudccQQg-bQ0NmKnnHQn-42" vertex="1">
+          <mxGeometry y="140" width="290" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="NudccQQg-bQ0NmKnnHQn-48" value="+ buildChanceOfAccident(): void&#xa;&#xa;+ buildInsuranceAmount(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="NudccQQg-bQ0NmKnnHQn-42" vertex="1">
+          <mxGeometry y="166" width="290" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="NudccQQg-bQ0NmKnnHQn-49" value="+ getInsuranceAgreement(): InsuranceAgreement" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="NudccQQg-bQ0NmKnnHQn-42" vertex="1">
+          <mxGeometry y="220" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NudccQQg-bQ0NmKnnHQn-51" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.569;entryY=1.04;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="NudccQQg-bQ0NmKnnHQn-42" target="NudccQQg-bQ0NmKnnHQn-38" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-560" y="235.9999999999999" as="sourcePoint" />
+            <mxPoint x="-499.9200000000001" y="166.00199999999995" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-470" y="200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NudccQQg-bQ0NmKnnHQn-52" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;rounded=0;entryX=0;entryY=0.923;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.308;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="NudccQQg-bQ0NmKnnHQn-18" target="NudccQQg-bQ0NmKnnHQn-46" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-820" y="370" as="sourcePoint" />
+            <mxPoint x="-440" y="485.9999999999999" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NudccQQg-bQ0NmKnnHQn-57" value="CarInsuranceFactory" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
+          <mxGeometry x="-1670" y="-630" width="310" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="NudccQQg-bQ0NmKnnHQn-58" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="NudccQQg-bQ0NmKnnHQn-57" vertex="1">
+          <mxGeometry y="26" width="310" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="NudccQQg-bQ0NmKnnHQn-59" value="+ makeInsuranceApplication(): InsuranceApplication&#xa;&#xa;+ makeInsuranceAgreement(): InsuranceAgreement" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="NudccQQg-bQ0NmKnnHQn-57" vertex="1">
+          <mxGeometry y="34" width="310" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="NudccQQg-bQ0NmKnnHQn-61" value="               &lt;&lt;abstract&gt;&gt;              &#xa;AbstractFactory" style="swimlane;fontStyle=3;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=48;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
+          <mxGeometry x="-1630" y="-1105" width="370" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="NudccQQg-bQ0NmKnnHQn-62" value="+ static factoryCarInsurance: AbstractFactory" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=6" parent="NudccQQg-bQ0NmKnnHQn-61" vertex="1">
+          <mxGeometry y="48" width="370" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="NudccQQg-bQ0NmKnnHQn-63" value="+ static factoryHealthInsurance: AbstractFactory&#xa;&#xa;+ static factoryHouseInsurance: AbstractFactory" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=6" parent="NudccQQg-bQ0NmKnnHQn-61" vertex="1">
+          <mxGeometry y="74" width="370" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="NudccQQg-bQ0NmKnnHQn-64" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="NudccQQg-bQ0NmKnnHQn-61" vertex="1">
+          <mxGeometry y="140" width="370" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="NudccQQg-bQ0NmKnnHQn-65" value="+ static factory(type) : AbstractFactory" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4" parent="NudccQQg-bQ0NmKnnHQn-61" vertex="1">
+          <mxGeometry y="148" width="370" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="NudccQQg-bQ0NmKnnHQn-66" value="+ abstract makeInsuranceApplication: InsuranceApplication&#xa;&#xa;+ abstract makeInsuranceAgreement: InsuranceAgreement" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=2" parent="NudccQQg-bQ0NmKnnHQn-61" vertex="1">
+          <mxGeometry y="174" width="370" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="NudccQQg-bQ0NmKnnHQn-68" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;entryX=1.008;entryY=1.006;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.354;exitY=-0.022;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="SlSF1KCasMHT-oXnxElZ-62" target="NudccQQg-bQ0NmKnnHQn-63" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-825" y="-620" as="sourcePoint" />
+            <mxPoint x="-1334" y="-826.01" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-1150" y="-795" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NudccQQg-bQ0NmKnnHQn-69" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="NudccQQg-bQ0NmKnnHQn-57" target="NudccQQg-bQ0NmKnnHQn-66" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-1540" y="-685" as="sourcePoint" />
+            <mxPoint x="-1510.12" y="-824.9960000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NudccQQg-bQ0NmKnnHQn-70" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.658;exitY=0.002;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="SlSF1KCasMHT-oXnxElZ-62" target="NudccQQg-bQ0NmKnnHQn-62" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-742.5" y="-620" as="sourcePoint" />
+            <mxPoint x="-980" y="-815" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NudccQQg-bQ0NmKnnHQn-71" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;rounded=0;exitX=0.3;exitY=-0.028;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="NudccQQg-bQ0NmKnnHQn-57" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-1760" y="-615" as="sourcePoint" />
+            <mxPoint x="-1630" y="-865" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NudccQQg-bQ0NmKnnHQn-100" value="HealthInsuranceAgreementBuilder" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
+          <mxGeometry x="-120" y="550" width="290" height="246" as="geometry" />
+        </mxCell>
+        <mxCell id="NudccQQg-bQ0NmKnnHQn-101" value="~ ran: Random&#xa;&#xa;~ insuranceAgreement: InsuranceAgreement&#xa;&#xa;" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="NudccQQg-bQ0NmKnnHQn-100" vertex="1">
+          <mxGeometry y="26" width="290" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="NudccQQg-bQ0NmKnnHQn-102" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="NudccQQg-bQ0NmKnnHQn-100" vertex="1">
+          <mxGeometry y="80" width="290" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="NudccQQg-bQ0NmKnnHQn-103" value="~ HealthInsuranceAgreementBuilder()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="NudccQQg-bQ0NmKnnHQn-100" vertex="1">
+          <mxGeometry y="88" width="290" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="NudccQQg-bQ0NmKnnHQn-104" value="+ buildClientNameAndType(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="NudccQQg-bQ0NmKnnHQn-100" vertex="1">
+          <mxGeometry y="114" width="290" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="NudccQQg-bQ0NmKnnHQn-105" value="+ buildYearlyFee(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="NudccQQg-bQ0NmKnnHQn-100" vertex="1">
+          <mxGeometry y="140" width="290" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="NudccQQg-bQ0NmKnnHQn-106" value="+ buildChanceOfAccident(): void&#xa;&#xa;+ buildInsuranceAmount(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="NudccQQg-bQ0NmKnnHQn-100" vertex="1">
+          <mxGeometry y="166" width="290" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="NudccQQg-bQ0NmKnnHQn-107" value="+ getInsuranceAgreement(): InsuranceAgreement" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="NudccQQg-bQ0NmKnnHQn-100" vertex="1">
+          <mxGeometry y="220" width="290" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="NudccQQg-bQ0NmKnnHQn-108" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.452;exitY=-0.008;exitDx=0;exitDy=0;entryX=0.72;entryY=1.062;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;" parent="1" source="NudccQQg-bQ0NmKnnHQn-100" target="NudccQQg-bQ0NmKnnHQn-38" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-285" y="430" as="sourcePoint" />
+            <mxPoint x="-535" y="139" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NudccQQg-bQ0NmKnnHQn-109" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="NudccQQg-bQ0NmKnnHQn-16" target="NudccQQg-bQ0NmKnnHQn-6" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-720" y="183" as="sourcePoint" />
+            <mxPoint x="-690" y="309" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NudccQQg-bQ0NmKnnHQn-114" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;entryX=0.595;entryY=0.985;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.284;exitY=0.002;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="SlSF1KCasMHT-oXnxElZ-59" target="NudccQQg-bQ0NmKnnHQn-66" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-1230" y="-625" as="sourcePoint" />
+            <mxPoint x="-1324" y="-816.01" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-1380" y="-665" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NudccQQg-bQ0NmKnnHQn-115" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;rounded=0;entryX=0.772;entryY=1.046;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.637;exitY=-0.014;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="SlSF1KCasMHT-oXnxElZ-59" target="NudccQQg-bQ0NmKnnHQn-66" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-1108.75" y="-615" as="sourcePoint" />
+            <mxPoint x="-1250" y="-984" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-1340" y="-685" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SlSF1KCasMHT-oXnxElZ-3" value="CarInsuranceApplicationBuilder" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
+          <mxGeometry x="-1950" y="203" width="290" height="168" as="geometry" />
+        </mxCell>
+        <mxCell id="SlSF1KCasMHT-oXnxElZ-4" value="~ insApplication: InsuranceApplication&#xa;" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="SlSF1KCasMHT-oXnxElZ-3" vertex="1">
+          <mxGeometry y="30" width="290" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SlSF1KCasMHT-oXnxElZ-5" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="SlSF1KCasMHT-oXnxElZ-3" vertex="1">
+          <mxGeometry y="70" width="290" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="SlSF1KCasMHT-oXnxElZ-6" value="+ CarInsuranceApplicationBuilder()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="SlSF1KCasMHT-oXnxElZ-3" vertex="1">
+          <mxGeometry y="86" width="290" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="SlSF1KCasMHT-oXnxElZ-7" value="+ buildYearlyFeeAndType(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="SlSF1KCasMHT-oXnxElZ-3" vertex="1">
+          <mxGeometry y="112" width="290" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="SlSF1KCasMHT-oXnxElZ-9" value="+ getInsuranceApplication(): InsuranceApplication" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="SlSF1KCasMHT-oXnxElZ-3" vertex="1">
+          <mxGeometry y="138" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SlSF1KCasMHT-oXnxElZ-10" value="InsuranceApplication" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="-2180" y="357" width="160" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="SlSF1KCasMHT-oXnxElZ-11" value="- type: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="SlSF1KCasMHT-oXnxElZ-10" vertex="1">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="SlSF1KCasMHT-oXnxElZ-12" value="- yearlyFee: double" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="SlSF1KCasMHT-oXnxElZ-10" vertex="1">
+          <mxGeometry y="52" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="SlSF1KCasMHT-oXnxElZ-15" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="SlSF1KCasMHT-oXnxElZ-10" vertex="1">
+          <mxGeometry y="78" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="SlSF1KCasMHT-oXnxElZ-16" value="+ getYearlyFee(): double" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="SlSF1KCasMHT-oXnxElZ-10" vertex="1">
+          <mxGeometry y="86" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="SlSF1KCasMHT-oXnxElZ-17" value="+ setYearlyFee(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="SlSF1KCasMHT-oXnxElZ-10" vertex="1">
+          <mxGeometry y="112" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="SlSF1KCasMHT-oXnxElZ-18" value="+ getType(): String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="SlSF1KCasMHT-oXnxElZ-10" vertex="1">
+          <mxGeometry y="138" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="SlSF1KCasMHT-oXnxElZ-19" value="+ setType(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="SlSF1KCasMHT-oXnxElZ-10" vertex="1">
+          <mxGeometry y="164" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="SlSF1KCasMHT-oXnxElZ-26" value="&lt;&lt;interface&gt;&gt;&#xa;IInsuranceApplicationBuilder" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=46;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="-1980" y="-67" width="290" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="SlSF1KCasMHT-oXnxElZ-27" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="SlSF1KCasMHT-oXnxElZ-26" vertex="1">
+          <mxGeometry y="46" width="290" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="SlSF1KCasMHT-oXnxElZ-28" value="+ buildYearlyFeeAndType(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="SlSF1KCasMHT-oXnxElZ-26" vertex="1">
+          <mxGeometry y="54" width="290" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="SlSF1KCasMHT-oXnxElZ-32" value="+ getInsuranceApplication(): InsuranceApplication" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="SlSF1KCasMHT-oXnxElZ-26" vertex="1">
+          <mxGeometry y="80" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SlSF1KCasMHT-oXnxElZ-34" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.438;entryY=1.077;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="SlSF1KCasMHT-oXnxElZ-3" target="SlSF1KCasMHT-oXnxElZ-32" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-1810" y="239" as="sourcePoint" />
+            <mxPoint x="-1650" y="239" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SlSF1KCasMHT-oXnxElZ-35" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="SlSF1KCasMHT-oXnxElZ-16" target="SlSF1KCasMHT-oXnxElZ-7" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-1990" y="226" as="sourcePoint" />
+            <mxPoint x="-1960" y="352" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SlSF1KCasMHT-oXnxElZ-36" value="HouseInsuranceApplicationBuilder" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
+          <mxGeometry x="-1840" y="453" width="290" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="SlSF1KCasMHT-oXnxElZ-37" value="~ insApplication: InsuranceApplication" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="SlSF1KCasMHT-oXnxElZ-36" vertex="1">
+          <mxGeometry y="26" width="290" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="SlSF1KCasMHT-oXnxElZ-38" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="SlSF1KCasMHT-oXnxElZ-36" vertex="1">
+          <mxGeometry y="60" width="290" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="SlSF1KCasMHT-oXnxElZ-39" value="+ HouseInsuranceApplicationBuilder()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="SlSF1KCasMHT-oXnxElZ-36" vertex="1">
+          <mxGeometry y="68" width="290" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="SlSF1KCasMHT-oXnxElZ-40" value="+ buildYearlyFeeAndType(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="SlSF1KCasMHT-oXnxElZ-36" vertex="1">
+          <mxGeometry y="94" width="290" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="SlSF1KCasMHT-oXnxElZ-43" value="+ getInsuranceApplication(): InsuranceApplication" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="SlSF1KCasMHT-oXnxElZ-36" vertex="1">
+          <mxGeometry y="120" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SlSF1KCasMHT-oXnxElZ-44" value="HealthInsuranceApplicationBuilder" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
+          <mxGeometry x="-1510" y="575" width="300" height="146" as="geometry" />
+        </mxCell>
+        <mxCell id="SlSF1KCasMHT-oXnxElZ-45" value="~ insApplication: InsuranceApplication" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="SlSF1KCasMHT-oXnxElZ-44" vertex="1">
+          <mxGeometry y="26" width="300" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="SlSF1KCasMHT-oXnxElZ-46" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="SlSF1KCasMHT-oXnxElZ-44" vertex="1">
+          <mxGeometry y="60" width="300" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="SlSF1KCasMHT-oXnxElZ-47" value="+ HealthInsuranceApplicationBuilder()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="SlSF1KCasMHT-oXnxElZ-44" vertex="1">
+          <mxGeometry y="68" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="SlSF1KCasMHT-oXnxElZ-48" value="+ buildYearlyFeeAndType(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="SlSF1KCasMHT-oXnxElZ-44" vertex="1">
+          <mxGeometry y="94" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="SlSF1KCasMHT-oXnxElZ-51" value="+ getInsuranceApplication(): InsuranceApplication" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="SlSF1KCasMHT-oXnxElZ-44" vertex="1">
+          <mxGeometry y="120" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="SlSF1KCasMHT-oXnxElZ-53" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;entryX=0.752;entryY=0.987;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="SlSF1KCasMHT-oXnxElZ-32" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-1379.273927392739" y="563" as="sourcePoint" />
+            <mxPoint x="-1740" y="149" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-1440" y="333" />
+              <mxPoint x="-1480" y="383" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SlSF1KCasMHT-oXnxElZ-54" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.619;entryY=1.013;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="SlSF1KCasMHT-oXnxElZ-36" target="SlSF1KCasMHT-oXnxElZ-32" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-1238" y="465" as="sourcePoint" />
+            <mxPoint x="-1730" y="159" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-1590" y="273" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SlSF1KCasMHT-oXnxElZ-59" value="HealthInsuranceFactory" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
+          <mxGeometry x="-1310" y="-630" width="310" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="SlSF1KCasMHT-oXnxElZ-60" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="SlSF1KCasMHT-oXnxElZ-59" vertex="1">
+          <mxGeometry y="26" width="310" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="SlSF1KCasMHT-oXnxElZ-61" value="+ makeInsuranceApplication(): InsuranceApplication&#xa;&#xa;+ makeInsuranceAgreement(): InsuranceAgreement" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="SlSF1KCasMHT-oXnxElZ-59" vertex="1">
+          <mxGeometry y="34" width="310" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="SlSF1KCasMHT-oXnxElZ-62" value="HouseInsuranceFactory" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
+          <mxGeometry x="-950" y="-630" width="310" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="SlSF1KCasMHT-oXnxElZ-63" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="SlSF1KCasMHT-oXnxElZ-62" vertex="1">
+          <mxGeometry y="26" width="310" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="SlSF1KCasMHT-oXnxElZ-64" value="+ makeInsuranceApplication(): InsuranceApplication&#xa;&#xa;+ makeInsuranceAgreement(): InsuranceAgreement" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="SlSF1KCasMHT-oXnxElZ-62" vertex="1">
+          <mxGeometry y="34" width="310" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="SlSF1KCasMHT-oXnxElZ-69" value="CustomException&lt;br&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="110" y="-330" width="310" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="SlSF1KCasMHT-oXnxElZ-70" value="- msg : String&lt;br&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="SlSF1KCasMHT-oXnxElZ-69" vertex="1">
+          <mxGeometry y="26" width="310" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="SlSF1KCasMHT-oXnxElZ-71" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="SlSF1KCasMHT-oXnxElZ-69" vertex="1">
+          <mxGeometry y="52" width="310" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="SlSF1KCasMHT-oXnxElZ-72" value="+ CustomException()&lt;br&gt;+ CustomException(String message)&amp;nbsp;&lt;br&gt;+ processError(int value): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="SlSF1KCasMHT-oXnxElZ-69" vertex="1">
+          <mxGeometry y="60" width="310" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SlSF1KCasMHT-oXnxElZ-73" value="HardCodedValue" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-300" y="-640" width="300" height="358" as="geometry" />
+        </mxCell>
+        <mxCell id="SlSF1KCasMHT-oXnxElZ-74" value="+ &amp;lt;static&amp;gt;&amp;nbsp;DF&lt;span style=&quot;background-color: initial;&quot;&gt;:&amp;nbsp;DecimalFormat&lt;br&gt;&lt;/span&gt;&lt;br&gt;+ &amp;lt;static&amp;gt;&amp;nbsp;currentYear&lt;span style=&quot;background-color: initial;&quot;&gt;:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;int&lt;br&gt;&lt;/span&gt;&lt;br&gt;+ &amp;lt;static&amp;gt;&amp;nbsp;carYearlyFeesMin&lt;span style=&quot;background-color: initial;&quot;&gt;:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;double&lt;br&gt;&lt;/span&gt;&lt;br&gt;+ &amp;lt;static&amp;gt;&amp;nbsp;carYearlyFeesMax&lt;span style=&quot;background-color: initial;&quot;&gt;:&amp;nbsp;&lt;/span&gt;double&lt;br&gt;&lt;br&gt;+ &amp;lt;static&amp;gt;&amp;nbsp;healthYearlyFeesMin: double&lt;br&gt;&lt;br&gt;+ &amp;lt;static&amp;gt;&amp;nbsp;healthYearlyFeesMax&lt;span style=&quot;background-color: initial; border-color: var(--border-color);&quot;&gt;:&amp;nbsp;&lt;/span&gt;double&lt;br&gt;&lt;br&gt;+ &amp;lt;static&amp;gt;&amp;nbsp;HouseYearlyFeesMin&lt;span style=&quot;background-color: initial;&quot;&gt;:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial; border-color: var(--border-color);&quot;&gt;double&lt;br&gt;&lt;/span&gt;&lt;br&gt;+ &amp;lt;static&amp;gt;&amp;nbsp;HouseYearlyFeesMax&lt;span style=&quot;background-color: initial; border-color: var(--border-color);&quot;&gt;:&amp;nbsp;&lt;/span&gt;double&lt;br&gt;&lt;br&gt;+ &amp;lt;static&amp;gt; SCANNER : Scanner&lt;br&gt;&lt;br&gt;+ &amp;lt;static&amp;gt;&amp;nbsp;ERROR1:&amp;nbsp;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;String&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;br&gt;+ &amp;lt;static&amp;gt;&amp;nbsp;ERROR2&lt;span style=&quot;background-color: initial;&quot;&gt;:&amp;nbsp;&lt;/span&gt;String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="SlSF1KCasMHT-oXnxElZ-73" vertex="1">
+          <mxGeometry y="26" width="300" height="324" as="geometry" />
+        </mxCell>
+        <mxCell id="SlSF1KCasMHT-oXnxElZ-75" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="SlSF1KCasMHT-oXnxElZ-73" vertex="1">
+          <mxGeometry y="350" width="300" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="SlSF1KCasMHT-oXnxElZ-78" value="InsuranceCompany" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="60" y="-1290" width="410" height="590" as="geometry" />
+        </mxCell>
+        <mxCell id="SlSF1KCasMHT-oXnxElZ-79" value="- ran: Random&lt;br&gt;-bugget:double&lt;br&gt;-&amp;nbsp;insuranceApplicationsList&lt;span style=&quot;background-color: initial;&quot;&gt;:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;List&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;InsuranceApplication&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;gt;&lt;/span&gt;&lt;br&gt;-&amp;nbsp;canceledInsuranceAgreementList:&amp;nbsp;List&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;InsuranceAgreement&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;gt;&lt;br&gt;&lt;/span&gt;-&amp;nbsp;endInsuranceAgreementList&lt;span style=&quot;background-color: initial;&quot;&gt;:&amp;nbsp;List&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;InsuranceAgreement&lt;/span&gt;&lt;span style=&quot;background-color: initial; border-color: var(--border-color);&quot;&gt;&amp;gt;&lt;/span&gt;&lt;br&gt;-&amp;nbsp;insuranceAgreementsList&lt;span style=&quot;background-color: initial;&quot;&gt;:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;List&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;InsuranceAgreement&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;gt;&lt;/span&gt;&lt;br&gt;-&amp;nbsp;totalPayoutClaims: double&lt;br&gt;- yearAndNetProfit: Map&amp;lt;Integer, Double&amp;gt;&lt;br&gt;-&amp;nbsp;totalPayoutCanceledAggr&lt;span style=&quot;background-color: initial;&quot;&gt;:&amp;nbsp;&lt;/span&gt;double&lt;br&gt;-&amp;nbsp;totalIncome&lt;span style=&quot;background-color: initial;&quot;&gt;:&amp;nbsp;&lt;/span&gt;double&lt;br&gt;-&amp;nbsp;iDirector&lt;span style=&quot;background-color: initial;&quot;&gt;:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;InsuranceDirector&lt;/span&gt;&lt;br&gt;+ InsuranceCompany()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="SlSF1KCasMHT-oXnxElZ-78" vertex="1">
+          <mxGeometry y="26" width="410" height="194" as="geometry" />
+        </mxCell>
+        <mxCell id="SlSF1KCasMHT-oXnxElZ-80" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="SlSF1KCasMHT-oXnxElZ-78" vertex="1">
+          <mxGeometry y="220" width="410" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="SlSF1KCasMHT-oXnxElZ-81" value="+&amp;nbsp;generateAgreement(): void&lt;br&gt;+&amp;nbsp;generateApplicationFirst()&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;:&amp;nbsp;&lt;/span&gt;void&lt;br&gt;+&amp;nbsp;userInputChecker(int &lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255); color: rgb(8, 8, 8);&quot;&gt;range&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;): int&lt;/span&gt;&lt;br&gt;+&amp;nbsp;displayInsuranceApplicationList&lt;span style=&quot;background-color: initial;&quot;&gt;(): void&lt;/span&gt;&lt;br&gt;+&amp;nbsp;displayInsuranceAgreementList&lt;span style=&quot;background-color: initial;&quot;&gt;():&amp;nbsp;&lt;/span&gt;void&lt;br&gt;+&amp;nbsp;displayInsuranceAgreements&lt;span style=&quot;background-color: initial;&quot;&gt;():&amp;nbsp;&lt;/span&gt;void&lt;br&gt;+&amp;nbsp;generateApplication&lt;span style=&quot;background-color: initial;&quot;&gt;() :&amp;nbsp;&lt;/span&gt;void&lt;br&gt;+&amp;nbsp;moveTimeForward&lt;span style=&quot;background-color: initial;&quot;&gt;():&amp;nbsp;&lt;/span&gt;void&lt;br&gt;+&amp;nbsp;showTotalMoney(): double&lt;br&gt;&amp;nbsp;+ getInsuranceApplicationsList(): List&amp;lt;InsuranceApplication&amp;gt; &lt;br&gt;+&amp;nbsp;setInsuranceApplicationsList(&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;List&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255); color: rgb(8, 8, 8);&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;InsuranceApplication&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255); color: rgb(8, 8, 8);&quot;&gt;&amp;gt; insuranceApplicationsList&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;) :&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;void&lt;br&gt;&lt;/span&gt;&lt;br&gt;+ getInsuranceAgreementsList(): List&amp;lt;InsuranceAgreement&amp;gt; &lt;br&gt;&lt;br&gt;+&amp;nbsp;setInsuranceAgreementsList(&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;List&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255); color: rgb(8, 8, 8);&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;InsuranceAgreement&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255); color: rgb(8, 8, 8);&quot;&gt;&amp;gt; insuranceAgreementsList&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;) : void&lt;br&gt;&lt;/span&gt;&lt;br&gt;+&amp;nbsp;getTotalPayoutClaims(): double&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;+&amp;nbsp;setTotalPayoutClaims&lt;span style=&quot;background-color: initial;&quot;&gt;(): void&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;br&gt;+&amp;nbsp;getTotalPayoutCanceledAggr&lt;span style=&quot;background-color: initial;&quot;&gt;():&amp;nbsp;&lt;/span&gt;double&lt;br&gt;+&amp;nbsp;setTotalPayoutCanceledAggr(): void&amp;nbsp;&amp;nbsp;&lt;br&gt;+&amp;nbsp;getTotalIncome&lt;span style=&quot;background-color: initial;&quot;&gt;():&amp;nbsp;&lt;/span&gt;double&lt;br&gt;+&amp;nbsp;setTotalIncome&lt;span style=&quot;background-color: initial;&quot;&gt;():&amp;nbsp;&lt;/span&gt;void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="SlSF1KCasMHT-oXnxElZ-78" vertex="1">
+          <mxGeometry y="228" width="410" height="362" as="geometry" />
+        </mxCell>
+        <mxCell id="SlSF1KCasMHT-oXnxElZ-82" value="&lt;div style=&quot;background-color:#ffffff;color:#080808&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;DisplayMenu&lt;/pre&gt;&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="590" y="-460" width="280" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="SlSF1KCasMHT-oXnxElZ-83" value="-&amp;nbsp;insuranceCompany:&amp;nbsp;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;InsuranceCompany&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;-&amp;nbsp;newLogin&lt;span style=&quot;background-color: initial;&quot;&gt;:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;boolean&lt;/span&gt;&lt;br&gt;&lt;br&gt;+&amp;nbsp;DisplayMenu&lt;span style=&quot;background-color: initial;&quot;&gt;()&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="SlSF1KCasMHT-oXnxElZ-82" vertex="1">
+          <mxGeometry y="50" width="280" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="SlSF1KCasMHT-oXnxElZ-84" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="SlSF1KCasMHT-oXnxElZ-82" vertex="1">
+          <mxGeometry y="120" width="280" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="SlSF1KCasMHT-oXnxElZ-85" value="+&amp;nbsp;menu(): int&lt;br&gt;+&amp;nbsp;selectOption&lt;span style=&quot;background-color: initial;&quot;&gt;()&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;void&lt;/span&gt;&lt;br&gt;+&amp;nbsp;showTotalAmountOfMoney&lt;span style=&quot;background-color: initial;&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;):&amp;nbsp;&lt;/span&gt;void&lt;br&gt;+&amp;nbsp;receiveNewApplication&lt;span style=&quot;background-color: initial;&quot;&gt;(): void&lt;/span&gt;&lt;br&gt;+&amp;nbsp;seeAllCurrentAgreements&lt;span style=&quot;background-color: initial;&quot;&gt;():&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;void&lt;/span&gt;&lt;br&gt;+&amp;nbsp;seeFinancialBreakDown&lt;span style=&quot;background-color: initial;&quot;&gt;():&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;void&lt;/span&gt;&lt;br&gt;+&amp;nbsp;breakInsuranceAgreement&lt;span style=&quot;background-color: initial;&quot;&gt;() :&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;void&lt;/span&gt;&lt;br&gt;+&amp;nbsp;moveTimeForward&lt;span style=&quot;background-color: initial;&quot;&gt;():&amp;nbsp;&lt;/span&gt;void&lt;br&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="SlSF1KCasMHT-oXnxElZ-82" vertex="1">
+          <mxGeometry y="128" width="280" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="HwBJPfB02IOwCjvMxtyi-1" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="SlSF1KCasMHT-oXnxElZ-18" target="SlSF1KCasMHT-oXnxElZ-39">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-2000" y="523" as="sourcePoint" />
+            <mxPoint x="-1840" y="523" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HwBJPfB02IOwCjvMxtyi-2" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;rounded=0;exitX=0.809;exitY=1.167;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="1" source="SlSF1KCasMHT-oXnxElZ-19">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-2050" y="588" as="sourcePoint" />
+            <mxPoint x="-1510" y="695.9999999999995" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HwBJPfB02IOwCjvMxtyi-3" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1.006;exitY=0.933;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="NudccQQg-bQ0NmKnnHQn-18" target="NudccQQg-bQ0NmKnnHQn-106">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-750" y="573" as="sourcePoint" />
+            <mxPoint x="-440" y="568" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HwBJPfB02IOwCjvMxtyi-5" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="NudccQQg-bQ0NmKnnHQn-59" target="NudccQQg-bQ0NmKnnHQn-2">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-1390" y="-360" as="sourcePoint" />
+            <mxPoint x="-1230" y="-360" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-740" y="-140" />
+              <mxPoint x="-740" y="220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HwBJPfB02IOwCjvMxtyi-6" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0.737;exitY=0.98;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="SlSF1KCasMHT-oXnxElZ-61" target="NudccQQg-bQ0NmKnnHQn-103">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-990" y="-420" as="sourcePoint" />
+            <mxPoint x="-830" y="-420" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="350" y="250" />
+              <mxPoint x="340" y="650" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HwBJPfB02IOwCjvMxtyi-7" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0.806;exitY=1.152;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.931;entryY=-0.025;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="SlSF1KCasMHT-oXnxElZ-64" target="NudccQQg-bQ0NmKnnHQn-42">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-660" y="-390" as="sourcePoint" />
+            <mxPoint x="-500" y="-390" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-190" y="10" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HwBJPfB02IOwCjvMxtyi-8" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0.54;exitY=1.114;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.885;entryY=0.004;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="NudccQQg-bQ0NmKnnHQn-59" target="SlSF1KCasMHT-oXnxElZ-3">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-1520" y="-380" as="sourcePoint" />
+            <mxPoint x="-1360" y="-380" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-1680" y="100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HwBJPfB02IOwCjvMxtyi-9" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0.489;exitY=0.98;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.9;entryY=0.014;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="SlSF1KCasMHT-oXnxElZ-61" target="SlSF1KCasMHT-oXnxElZ-44">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-1493" y="-512" as="sourcePoint" />
+            <mxPoint x="-1683" y="214" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HwBJPfB02IOwCjvMxtyi-10" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0.333;exitY=1.106;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.902;entryY=-0.051;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="SlSF1KCasMHT-oXnxElZ-64" target="SlSF1KCasMHT-oXnxElZ-36">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-1148" y="-521" as="sourcePoint" />
+            <mxPoint x="-1230" y="587" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-1570" y="90" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HwBJPfB02IOwCjvMxtyi-11" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=-0.012;exitY=-0.346;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.005;entryY=0.138;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="NudccQQg-bQ0NmKnnHQn-29" target="NudccQQg-bQ0NmKnnHQn-61">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-900" y="-1030" as="sourcePoint" />
+            <mxPoint x="-740" y="-1030" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HwBJPfB02IOwCjvMxtyi-12" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;rounded=0;entryX=0.006;entryY=0.799;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="SlSF1KCasMHT-oXnxElZ-79">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-270" y="-1000" as="sourcePoint" />
+            <mxPoint x="-50" y="-990" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HwBJPfB02IOwCjvMxtyi-13" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;exitX=0.628;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.006;entryY=1.026;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="NudccQQg-bQ0NmKnnHQn-10" target="SlSF1KCasMHT-oXnxElZ-79">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-900" y="-190" as="sourcePoint" />
+            <mxPoint x="-740" y="-190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HwBJPfB02IOwCjvMxtyi-14" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.034;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="SlSF1KCasMHT-oXnxElZ-10" target="SlSF1KCasMHT-oXnxElZ-79">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-2210" y="230" as="sourcePoint" />
+            <mxPoint x="-2050" y="230" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-2140" y="-1257" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HwBJPfB02IOwCjvMxtyi-15" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;exitX=0.628;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.006;entryY=1.026;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-895" y="-90" as="sourcePoint" />
+            <mxPoint x="68" y="-1055" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HwBJPfB02IOwCjvMxtyi-16" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;exitX=0.628;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.015;entryY=0.928;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="SlSF1KCasMHT-oXnxElZ-79">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-950" y="-97.5" as="sourcePoint" />
+            <mxPoint x="13" y="-1062.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HwBJPfB02IOwCjvMxtyi-17" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=-0.006;exitY=0.453;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.006;entryY=0.107;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="SlSF1KCasMHT-oXnxElZ-79" target="NudccQQg-bQ0NmKnnHQn-25">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-130" y="-1160" as="sourcePoint" />
+            <mxPoint x="30" y="-1160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HwBJPfB02IOwCjvMxtyi-20" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0.355;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.002;entryY=0.423;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="SlSF1KCasMHT-oXnxElZ-69" target="SlSF1KCasMHT-oXnxElZ-74">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="220" y="-640" as="sourcePoint" />
+            <mxPoint x="20" y="-480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HwBJPfB02IOwCjvMxtyi-21" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=-0.008;exitY=0.093;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.022;entryY=0.307;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="SlSF1KCasMHT-oXnxElZ-82" target="SlSF1KCasMHT-oXnxElZ-74">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="239" y="-383" as="sourcePoint" />
+            <mxPoint x="20" y="-530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HwBJPfB02IOwCjvMxtyi-18" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0;exitY=0.724;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.532;entryY=-0.001;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="SlSF1KCasMHT-oXnxElZ-81" target="SlSF1KCasMHT-oXnxElZ-73">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="20" y="-660" as="sourcePoint" />
+            <mxPoint x="-140" y="-660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HwBJPfB02IOwCjvMxtyi-22" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0.78;exitY=1.006;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="SlSF1KCasMHT-oXnxElZ-81" target="SlSF1KCasMHT-oXnxElZ-69">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="390" y="-410" as="sourcePoint" />
+            <mxPoint x="550" y="-410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HwBJPfB02IOwCjvMxtyi-23" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=1.012;exitY=0.596;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="SlSF1KCasMHT-oXnxElZ-81" target="SlSF1KCasMHT-oXnxElZ-82">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="617" y="-880" as="sourcePoint" />
+            <mxPoint x="580" y="-512" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HwBJPfB02IOwCjvMxtyi-24" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;rounded=0;entryX=0.619;entryY=-0.012;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.012;exitY=0.407;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="SlSF1KCasMHT-oXnxElZ-81" target="SlSF1KCasMHT-oXnxElZ-82">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="620" y="-780" as="sourcePoint" />
+            <mxPoint x="780" y="-780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
